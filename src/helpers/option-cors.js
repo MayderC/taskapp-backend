@@ -1,7 +1,8 @@
+const origin = process.env.ORIGIN
 
 module.exports = {
   options : {
-    origin: 'http://example.com',
+    origin: origin,
     optionsSuccessStatus: 200
   }
 }
